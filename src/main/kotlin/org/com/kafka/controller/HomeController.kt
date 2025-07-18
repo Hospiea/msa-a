@@ -11,7 +11,7 @@ class HomeController (
 ) {
 
   @GetMapping("/")
-  fun home() {
-    println("Hello")
+  fun home(): String {
+    return "Hello World"
   }
 }
