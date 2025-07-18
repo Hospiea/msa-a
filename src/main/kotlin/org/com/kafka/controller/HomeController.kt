@@ -10,7 +10,7 @@ class HomeController (
 
 ) {
 
-  @GetMapping("/")
+  @GetMapping("")
   fun home(): String {
     return "Hello World"
   }
